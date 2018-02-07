@@ -10,3 +10,9 @@ function nowServing(katzDeliLine) {
   var person = katzDeliLine.shift()
   return (`Currently serving ${person}.`)
 }
+function currentLine(katzDeliLine) {
+  if (katzDeliLine.length === 0) {
+    return ("The line is currently empty.")
+  } else 
+  
+ }
