@@ -11,12 +11,13 @@ function nowServing(katzDeliLine) {
   return (`Currently serving ${person}.`)
   }
 }
-function currentLine(katzDeliLin) {
-  if (katzDeliLin.length === 0) {
+function currentLine(katzDeliLine) {
+  if (katzDeliLine.length === 0) {
     return ("The line is currently empty.")
   } else {
-     for (let i = 0; i < katzDeliLin.length ;i++) {
-       var customer = katzDeliLin[i]
+     for (let i = 0; i < katzDeliLine.length ;i++) {
+       return katzDeliLine
+       var customer = katzDeliLine[i]
       `${i + 1} ${customer}`
      }
   }
