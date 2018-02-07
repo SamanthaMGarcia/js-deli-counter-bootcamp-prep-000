@@ -17,7 +17,7 @@ function currentLine(katzDeliLine) {
   } else {
      for (let i = 0; i < katzDeliLine.length ;i++) {
        var customer = katzDeliLine[i]
-      `i++ + 1 ${customer}`
+      `${i++ + 1} ${customer}`
      }
   }
 }
