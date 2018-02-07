@@ -16,6 +16,7 @@ function currentLine(katzDeliLine) {
     return ("The line is currently empty.")
   } else {
      for (let i = 0; i < katzeDeliLine.length ;i++) {
+       var customer = 
        1. ${Ada},
      }
   }
