@@ -24,4 +24,5 @@ function currentLine(katzDeliLine) {
      var string = array.join(', ')
      // string '1. Ada, 2. Grace'
     return "The line is currently:" + string
+    }
   }
