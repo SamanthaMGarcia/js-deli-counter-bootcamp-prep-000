@@ -23,6 +23,5 @@ function currentLine(katzDeliLine) {
     //array ['1. Ada', '2. Grace', '3. Morty']
      var string = array.join(', ')
      // string '1. Ada, 2. Grace'
-  return (`The line is currently: ${i + 1}. ${katzDeliLine[i]}, ${i + 1}.${katzDeliLine[i]}, ${i + 1}.${katzDeliLine[i]}`)
-    }
+    return "The line is currently:" + string
   }
