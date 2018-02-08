@@ -23,6 +23,6 @@ function currentLine(katzDeliLine) {
     //array ['1. Ada', '2. Grace', '3. Morty']
      var string = array.join(', ')
      // string '1. Ada, 2. Grace'
-    return "The line is currently:" + string
+    return "The line is currently: " + string
     }
   }
